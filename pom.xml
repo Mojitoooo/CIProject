@@ -80,9 +80,9 @@
 <repository>
 <id>deploymentRepo</id>
 <name>Nexus Repository</name>
-<url>localhost:8081/repository/maven-releases/</url>
+<url>203.203.1.158:8081/repository/maven-releases/</url>
 </repository>
-</distributionManagement>
+   </distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
