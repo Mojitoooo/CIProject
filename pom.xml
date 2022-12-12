@@ -76,13 +76,6 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-	<extensions>
-        <extension>
-            <groupId>org.apache.maven.wagon</groupId>
-            <artifactId>wagon-ssh</artifactId>
-            <version>2.10</version>
-        </extension>
-    </extensions>
 	<distributionManagement>
 <repository>
 <id>deploymentRepo</id>
