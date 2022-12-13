@@ -1,4 +1,4 @@
-FROM openjdk:11
-EXPOSE 8089
-ADD target/ExamThourayaS2.jar ExamThourayaS2.jar
-ENTRYPOINT ["java","-jar","/ExamThourayaS2.jar"]
+FROM openjdk:8-jdk-alpine
+COPY target/ExamThourayaS2-0.0.1-SNAPSHOT.jar ExamThourayaS2-0.0.1-SNAPSHOT.jar
+EXPOSE 8081
+ENTRYPOINT ["java","-jar","/ExamThourayaS2-0.0.1-SNAPSHOT.jar"]
